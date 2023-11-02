@@ -1,0 +1,130 @@
+/* Reset some default styles */
+body, h1, p, input, button, label {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the body */
+body {
+    background-color: #00b3ff;
+    margin: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Center the form */
+.cmxform {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form elements */
+.cmxform p {
+    margin-bottom: 20px;
+}
+
+.cmxform label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+
+.cmxform input[type="text"],
+.cmxform input[type="password"],
+.cmxform input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* So padding does not affect width */
+}
+
+/* Style the submit button */
+.cmxform input[type="submit"] {
+    background-color: #00b3ff; /* A soothing green */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cmxform input[type="submit"]:hover {
+    background-color: #00b3ff; /* A darker green for hover state */
+}
+
+/* Style the checkbox */
+.cmxform input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the error messages */
+.error {
+    color: #d9534f; /* Bootstrap 'danger' color */
+}
+
+/* Adjusting spacing for inline elements */
+label, input, .submit {
+    vertical-align: middle;
+}
+
+input.submit:disabled {
+    background-color: #cccccc; /* Gray background */
+    cursor: not-allowed; /* The cursor to display when the button is disabled */
+    opacity: 0.7; /* Makes the button appear faded */
+  }
+
+/* Welcome message */
+#hi {
+    color: #00b3ff; /* A soothing green */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Additional styles for a better look */
+input:focus {
+    border-color: #00b3ff;
+    outline: none;
+}
+
+input.error {
+    border-color: #d9534f;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2); /* Makes the checkbox slightly larger */
+}
+label.error {
+    color: #FF0000; /* Red color for error messages */
+    font-size: 0.8em; /* You can adjust the size as needed */
+}
+button{
+    background-color: #00b3ff; /* A soothing green */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#stopwatch {
+    font-size: 2em;
+    margin: 20px;
+}
+
+/* Add this to your styles.css */
+#datepicker {
+    /* pointer-events: none; */
+    background-color: #f3f3f3; /* Optional: to make it clear it's not interactive */
+}
+
+.center{
+    margin-left: auto;
+    margin-right:auto;
+}
